@@ -20,7 +20,7 @@ public class CyberApplication extends Application {
     public void onCreate() {
         super.onCreate();
         this.context = this;
-        MLApplication.getInstance().setApiKey("替换成你自己的ApiKey");
+        MLApplication.getInstance().setApiKey("DAEDAM3PkXEf8RyPVv+sh6rGtGDSY2eqbZzzy4O+aERfKu7Se1yVD/djACWSQiDY7wrayJV8XcM4gAP/yQqsYLlK3oPNKZEzEC3B2A==");
 
         BluetoothClient.bindContext(this);
 
